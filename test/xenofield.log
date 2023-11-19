@@ -1,0 +1,102 @@
+Start load field with id "0634".
+Loading file: data/field/0635.raw2
+Load texture:
+    texture_header_id     = 0x00001201
+    texture_header_vram_x = 0x00000000
+    texture_header_vram_y = 0x000001e0
+    texture_header_move_x = 0x00000000
+    texture_header_move_y = 0x00000000
+    texture_header_width  = 0x00000100
+Load texture:
+    texture_header_id     = 0x00001200
+    texture_header_vram_x = 0x00000140
+    texture_header_vram_y = 0x00000000
+    texture_header_move_x = 0x00000180
+    texture_header_move_y = 0x00000000
+    texture_header_width  = 0x00000080
+Load texture:
+    texture_header_id     = 0x00001200
+    texture_header_vram_x = 0x00000140
+    texture_header_vram_y = 0x00000000
+    texture_header_move_x = 0x00000100
+    texture_header_move_y = 0x00000000
+    texture_header_width  = 0x00000080
+Load texture:
+    texture_header_id     = 0x00001200
+    texture_header_vram_x = 0x00000140
+    texture_header_vram_y = 0x00000000
+    texture_header_move_x = 0x00000080
+    texture_header_move_y = 0x00000000
+    texture_header_width  = 0x00000080
+Load texture:
+    texture_header_id     = 0x00001200
+    texture_header_vram_x = 0x00000140
+    texture_header_vram_y = 0x00000000
+    texture_header_move_x = 0x00000020
+    texture_header_move_y = 0x00000000
+    texture_header_width  = 0x00000040
+Load texture:
+    texture_header_id     = 0x00001200
+    texture_header_vram_x = 0x00000140
+    texture_header_vram_y = 0x00000000
+    texture_header_move_x = 0x00000200
+    texture_header_move_y = 0x00000000
+    texture_header_width  = 0x00000040
+Load texture:
+    texture_header_id     = 0x00001200
+    texture_header_vram_x = 0x00000140
+    texture_header_vram_y = 0x00000000
+    texture_header_move_x = 0x00000000
+    texture_header_move_y = 0x00000000
+    texture_header_width  = 0x00000020
+Load texture:
+    texture_header_id     = 0x00001200
+    texture_header_vram_x = 0x00000140
+    texture_header_vram_y = 0x00000000
+    texture_header_move_x = 0x00000240
+    texture_header_move_y = 0x00000000
+    texture_header_width  = 0x00000040
+Load texture:
+    texture_header_id     = 0x00001200
+    texture_header_vram_x = 0x00000140
+    texture_header_vram_y = 0x00000000
+    texture_header_move_x = 0x00000240
+    texture_header_move_y = 0x00000040
+    texture_header_width  = 0x00000040
+Load texture:
+    texture_header_id     = 0x00001200
+    texture_header_vram_x = 0x00000140
+    texture_header_vram_y = 0x00000000
+    texture_header_move_x = 0x00000060
+    texture_header_move_y = 0x00000000
+    texture_header_width  = 0x00000020
+Load texture:
+    texture_header_id     = 0x00001200
+    texture_header_vram_x = 0x00000140
+    texture_header_vram_y = 0x00000000
+    texture_header_move_x = 0x00000060
+    texture_header_move_y = 0x000000a0
+    texture_header_width  = 0x00000020
+Load texture:
+    texture_header_id     = 0x00001200
+    texture_header_vram_x = 0x00000140
+    texture_header_vram_y = 0x00000000
+    texture_header_move_x = 0x00000060
+    texture_header_move_y = 0x00000040
+    texture_header_width  = 0x00000010
+Load texture:
+    texture_header_id     = 0x00001200
+    texture_header_vram_x = 0x00000140
+    texture_header_vram_y = 0x00000000
+    texture_header_move_x = 0x00000070
+    texture_header_move_y = 0x00000080
+    texture_header_width  = 0x00000008
+Load texture:
+    texture_header_id     = 0x00001200
+    texture_header_vram_x = 0x00000140
+    texture_header_vram_y = 0x00000000
+    texture_header_move_x = 0x00000078
+    texture_header_move_y = 0x00000080
+    texture_header_width  = 0x00000004
+Loading file: data/field/0634
+CreateTexture palette_x="0" palette_y="483" bpp="1".CreateTexture palette_x="0" palette_y="492" bpp="1".CreateTexture palette_x="0" palette_y="495" bpp="1".CreateTexture palette_x="0" palette_y="485" bpp="1".CreateTexture palette_x="0" palette_y="484" bpp="1".CreateTexture palette_x="0" palette_y="486" bpp="1".CreateTexture palette_x="0" palette_y="482" bpp="1".CreateTexture palette_x="0" palette_y="490" bpp="0".CreateTexture palette_x="0" palette_y="494" bpp="1".CreateTexture palette_x="0" palette_y="493" bpp="1".CreateTexture palette_x="0" palette_y="480" bpp="1".CreateTexture palette_x="0" palette_y="498" bpp="1".CreateTexture palette_x="0" palette_y="488" bpp="1".CreateTexture palette_x="0" palette_y="487" bpp="1".CreateTexture palette_x="0" palette_y="491" bpp="1".CreateTexture palette_x="0" palette_y="499" bpp="1".CreateTexture palette_x="0" palette_y="500" bpp="1".CreateTexture palette_x="0" palette_y="496" bpp="1".CreateTexture palette_x="16" palette_y="490" bpp="0".CreateTexture palette_x="0" palette_y="497" bpp="1".CreateTexture palette_x="0" palette_y="481" bpp="1".CreateTexture palette_x="0" palette_y="0" bpp="0".CreateTexture palette_x="256" palette_y="480" bpp="0".CreateTexture palette_x="256" palette_y="480" bpp="0".

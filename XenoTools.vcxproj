@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{6aa3a200-f705-484d-baa7-257636684409}</ProjectGuid>
+    <RootNamespace>XenoTools</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <UseStandardPreprocessor>
+      </UseStandardPreprocessor>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <UseStandardPreprocessor>
+      </UseStandardPreprocessor>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ArchiveFile.cpp" />
+    <ClCompile Include="src\DialogFile.cpp" />
+    <ClCompile Include="src\FieldModel.cpp" />
+    <ClCompile Include="src\FieldModule.cpp" />
+    <ClCompile Include="src\FieldPackFile.cpp" />
+    <ClCompile Include="src\File.cpp" />
+    <ClCompile Include="src\FileSystem.cpp" />
+    <ClCompile Include="src\lodepng.cpp" />
+    <ClCompile Include="src\Logger.cpp" />
+    <ClCompile Include="src\ModelFile.cpp" />
+    <ClCompile Include="src\model_exporter.cpp" />
+    <ClCompile Include="src\PacketFile.cpp" />
+    <ClCompile Include="src\ScriptFile.cpp" />
+    <ClCompile Include="src\SpriteFile.cpp" />
+    <ClCompile Include="src\TexGenUtilities.cpp" />
+    <ClCompile Include="src\TextParse.cpp" />
+    <ClCompile Include="src\Utilities.cpp" />
+    <ClCompile Include="src\Vram.cpp" />
+    <ClCompile Include="src\WalkmeshFile.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ArchiveFile.h" />
+    <ClInclude Include="src\DialogFile.h" />
+    <ClInclude Include="src\FieldModel.h" />
+    <ClInclude Include="src\FieldModule.h" />
+    <ClInclude Include="src\FieldPackFile.h" />
+    <ClInclude Include="src\File.h" />
+    <ClInclude Include="src\FileSystem.h" />
+    <ClInclude Include="src\lodepng.h" />
+    <ClInclude Include="src\Logger.h" />
+    <ClInclude Include="src\ModelFile.h" />
+    <ClInclude Include="src\PacketFile.h" />
+    <ClInclude Include="src\ScriptFile.h" />
+    <ClInclude Include="src\SpriteFile.h" />
+    <ClInclude Include="src\TexGenUtilities.h" />
+    <ClInclude Include="src\TextParse.h" />
+    <ClInclude Include="src\TypeDefine.h" />
+    <ClInclude Include="src\Utilities.h" />
+    <ClInclude Include="src\Vram.h" />
+    <ClInclude Include="src\WalkmeshFile.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
