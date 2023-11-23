@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <format>
+#include <unordered_map>
 
 #include "DialogFile.h"
 #include "FieldModel.h"
@@ -13,6 +14,8 @@
 #include "WalkmeshFile.h"
 #include "Logger.h"
 
+
+#define PI 3.14159265359
 
 
 //Walkmesh* walkmesh = NULL;
@@ -136,19 +139,6 @@ FieldModule::LoadMap(const int file_id)
     delete walk;
     export_script->Log("    <walkmesh file_name=\"maps/field/" + fname + "_wm.xml\" />\n");
 
-
-    
-    // part 2
-    temp = field_pack->Extract( 2 );
-    {
-        FieldModel model;
-        model.Export( temp, vram, file_id );
-    }
-    temp->WriteFile( "exported/debug/" + fname + "_2_3dmodel" );
-    delete temp;
-
-
-
     // part 3
     temp = field_pack->Extract( 3 );
     temp->WriteFile( "exported/debug/" + fname + "_3_2dsprite" );
@@ -254,9 +244,7 @@ FieldModule::LoadMap(const int file_id)
     }
     delete temp;
 
-
-
-    // export entities
+    std::unordered_map<int, EntityData> entities;
     export_script->Log( "\n" );
     u16 number_of_model_ent = field_pack->GetU16LE( 0x18c );
     for( int i = 0; i < number_of_model_ent; ++i )
@@ -285,16 +273,32 @@ FieldModule::LoadMap(const int file_id)
         if( ( flags & 0x0040 ) == 0 )
         {
             export_script->Log( "file_name=\"" + IntToString( model_id ) + "\" " );
+
+            EntityData data;
+            data.pos[0] = x;
+            data.pos[1] = y;
+            data.pos[2] = z;
+            data.rot[0] = ((float)(x_rot)) / 4096.0 * 2 * PI;
+            data.rot[1] = ((float)(y_rot)) / 4096.0 * 2 * PI;
+            data.rot[2] = ((float)(z_rot)) / 4096.0 * 2 * PI;
+            entities[model_id] = data;
         }
         export_script->Log( "flags=\"" + HexToString( flags, 4, '0' ) + "\" " );
         export_script->Log( "rotation=\"" + std::to_string( x_rot ) + " " + std::to_string( y_rot ) + " " + std::to_string( z_rot ) + "\" " );
         export_script->Log( "/>" );
     }
-    
-
-
+ 
     export_script->Log("\n</map>");
     delete export_script;
+
+    // part 2
+    temp = field_pack->Extract(2);
+    {
+        FieldModel model;
+        model.Export(temp, vram, file_id, entities);
+    }
+    temp->WriteFile("exported/debug/" + fname + "_2_3dmodel");
+    delete temp;
 
     delete field_pack;
     delete vram;

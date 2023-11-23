@@ -47,7 +47,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;__STDC_LIB_EXT1__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <UseStandardPreprocessor>
@@ -94,6 +94,7 @@
     <ClCompile Include="src\SpriteFile.cpp" />
     <ClCompile Include="src\TexGenUtilities.cpp" />
     <ClCompile Include="src\TextParse.cpp" />
+    <ClCompile Include="src\tiny_gltf.cc" />
     <ClCompile Include="src\Utilities.cpp" />
     <ClCompile Include="src\Vram.cpp" />
     <ClCompile Include="src\WalkmeshFile.cpp" />
@@ -106,14 +107,18 @@
     <ClInclude Include="src\FieldPackFile.h" />
     <ClInclude Include="src\File.h" />
     <ClInclude Include="src\FileSystem.h" />
+    <ClInclude Include="src\json.hpp" />
     <ClInclude Include="src\lodepng.h" />
     <ClInclude Include="src\Logger.h" />
     <ClInclude Include="src\ModelFile.h" />
     <ClInclude Include="src\PacketFile.h" />
     <ClInclude Include="src\ScriptFile.h" />
     <ClInclude Include="src\SpriteFile.h" />
+    <ClInclude Include="src\stb_image.h" />
+    <ClInclude Include="src\stb_image_write.h" />
     <ClInclude Include="src\TexGenUtilities.h" />
     <ClInclude Include="src\TextParse.h" />
+    <ClInclude Include="src\tiny_gltf.h" />
     <ClInclude Include="src\TypeDefine.h" />
     <ClInclude Include="src\Utilities.h" />
     <ClInclude Include="src\Vram.h" />

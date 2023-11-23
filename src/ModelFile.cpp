@@ -95,10 +95,10 @@ ModelFile::GetModelPart(const int part_id, ModelData& modelData, const MeshData&
         const unsigned int vCount = static_cast<size_t>(number_of_triangles * 3);
 
         int lastIdx = 0;
-        if (!modelData.indices.empty()) lastIdx = modelData.indices.back();
+        if (!modelData.indices.empty()) lastIdx = modelData.indices.back() + 1;
         
         // Index buffer
-        for (unsigned int i = 1; i <= vCount; ++i)
+        for (unsigned int i = 0; i < vCount; ++i)
         {
             modelData.indices.push_back(lastIdx + i);
         }
@@ -230,11 +230,11 @@ ModelFile::LoadPoly_01_03_05_07(ModelData& modelData, const MeshData& info, Vect
     AddTexture(texture, info, textures, m_ExportLog);
 
     modelData.uvs.push_back((GetU8(m_PointerToTextureData + 0x4) + texture.start_x) / (float)info.tex_width);
-    modelData.uvs.push_back(1.f - (GetU8(m_PointerToTextureData + 0x5) + texture.start_y) / (float)info.tex_height);
+    modelData.uvs.push_back((GetU8(m_PointerToTextureData + 0x5) + texture.start_y) / (float)info.tex_height);
     modelData.uvs.push_back((GetU8(m_PointerToTextureData + 0x0) + texture.start_x) / (float)info.tex_width);
-    modelData.uvs.push_back(1.f - (GetU8(m_PointerToTextureData + 0x1) + texture.start_y) / (float)info.tex_height);
+    modelData.uvs.push_back((GetU8(m_PointerToTextureData + 0x1) + texture.start_y) / (float)info.tex_height);
     modelData.uvs.push_back((GetU8(m_PointerToTextureData + 0x6) + texture.start_x) / (float)info.tex_width);
-    modelData.uvs.push_back(1.f - (GetU8(m_PointerToTextureData + 0x7) + texture.start_y) / (float)info.tex_height);
+    modelData.uvs.push_back((GetU8(m_PointerToTextureData + 0x7) + texture.start_y) / (float)info.tex_height);
 
     modelData.vcolors.push_back(1.f); modelData.vcolors.push_back(1.f); modelData.vcolors.push_back(1.f);
     modelData.vcolors.push_back(1.f); modelData.vcolors.push_back(1.f); modelData.vcolors.push_back(1.f);
@@ -356,17 +356,17 @@ ModelFile::LoadPoly_09_0b_0d_0f(ModelData& modelData, const MeshData& info, Vect
     AddTexture(texture, info, textures, m_ExportLog);
 
     modelData.uvs.push_back((GetU8(m_PointerToTextureData + 0x4) + texture.start_x) / (float)info.tex_width);
-    modelData.uvs.push_back(1.f - (GetU8(m_PointerToTextureData + 0x5) + texture.start_y) / (float)info.tex_height);
+    modelData.uvs.push_back((GetU8(m_PointerToTextureData + 0x5) + texture.start_y) / (float)info.tex_height);
     modelData.uvs.push_back((GetU8(m_PointerToTextureData + 0x8) + texture.start_x) / (float)info.tex_width);
-    modelData.uvs.push_back(1.f - (GetU8(m_PointerToTextureData + 0x9) + texture.start_y) / (float)info.tex_height);
+    modelData.uvs.push_back((GetU8(m_PointerToTextureData + 0x9) + texture.start_y) / (float)info.tex_height);
     modelData.uvs.push_back((GetU8(m_PointerToTextureData + 0x6) + texture.start_x) / (float)info.tex_width);
-    modelData.uvs.push_back(1.f - (GetU8(m_PointerToTextureData + 0x7) + texture.start_y) / (float)info.tex_height);
+    modelData.uvs.push_back((GetU8(m_PointerToTextureData + 0x7) + texture.start_y) / (float)info.tex_height);
     modelData.uvs.push_back((GetU8(m_PointerToTextureData + 0x6) + texture.start_x) / (float)info.tex_width);
-    modelData.uvs.push_back(1.f - (GetU8(m_PointerToTextureData + 0x7) + texture.start_y) / (float)info.tex_height);
+    modelData.uvs.push_back((GetU8(m_PointerToTextureData + 0x7) + texture.start_y) / (float)info.tex_height);
     modelData.uvs.push_back((GetU8(m_PointerToTextureData + 0x8) + texture.start_x) / (float)info.tex_width);
-    modelData.uvs.push_back(1.f - (GetU8(m_PointerToTextureData + 0x9) + texture.start_y) / (float)info.tex_height);
+    modelData.uvs.push_back((GetU8(m_PointerToTextureData + 0x9) + texture.start_y) / (float)info.tex_height);
     modelData.uvs.push_back((GetU8(m_PointerToTextureData + 0xa) + texture.start_x) / (float)info.tex_width);
-    modelData.uvs.push_back(1.f - (GetU8(m_PointerToTextureData + 0xb) + texture.start_y) / (float)info.tex_height);
+    modelData.uvs.push_back((GetU8(m_PointerToTextureData + 0xb) + texture.start_y) / (float)info.tex_height);
 
     modelData.vcolors.push_back(1.f); modelData.vcolors.push_back(1.f); modelData.vcolors.push_back(1.f);
     modelData.vcolors.push_back(1.f); modelData.vcolors.push_back(1.f); modelData.vcolors.push_back(1.f);
