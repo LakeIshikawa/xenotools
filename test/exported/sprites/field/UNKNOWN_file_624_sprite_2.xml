@@ -1,0 +1,117 @@
+<sprite texture="sprites/field/UNKNOWN_file_624_sprite_2.png">
+    <start_dir_frame id="16" />
+    <start_dir_frame id="24" />
+    <start_dir_frame id="32" />
+    <start_dir_frame id="40" />
+    <start_dir_frame id="48" />
+    <start_dir_frame id="10" />
+    <start_dir_frame id="18" />
+    <start_dir_frame id="26" />
+    <start_dir_frame id="34" />
+    <start_dir_frame id="42" />
+    <start_dir_frame id="1" />
+    <start_dir_frame id="3" />
+    <start_dir_frame id="5" />
+    <start_dir_frame id="7" />
+    <start_dir_frame id="9" />
+    <frame id="0">
+    </frame>
+    <frame id="1">
+    </frame>
+    <frame id="2">
+    </frame>
+    <frame id="3">
+    </frame>
+    <frame id="4">
+    </frame>
+    <frame id="5">
+    </frame>
+    <frame id="6">
+    </frame>
+    <frame id="7">
+    </frame>
+    <frame id="8">
+    </frame>
+    <frame id="9">
+    </frame>
+    <frame id="10">
+    </frame>
+    <frame id="11">
+    </frame>
+    <frame id="12">
+    </frame>
+    <frame id="13">
+    </frame>
+    <frame id="14">
+    </frame>
+    <frame id="15">
+    </frame>
+    <frame id="16">
+    </frame>
+    <frame id="17">
+    </frame>
+    <frame id="18">
+    </frame>
+    <frame id="19">
+    </frame>
+    <frame id="20">
+    </frame>
+    <frame id="21">
+    </frame>
+    <frame id="22">
+    </frame>
+    <frame id="23">
+    </frame>
+    <frame id="24">
+    </frame>
+    <frame id="25">
+    </frame>
+    <frame id="26">
+    </frame>
+    <frame id="27">
+    </frame>
+    <frame id="28">
+    </frame>
+    <frame id="29">
+    </frame>
+    <frame id="30">
+    </frame>
+    <frame id="31">
+    </frame>
+    <frame id="32">
+    </frame>
+    <frame id="33">
+    </frame>
+    <frame id="34">
+    </frame>
+    <frame id="35">
+    </frame>
+    <frame id="36">
+    </frame>
+    <frame id="37">
+    </frame>
+    <frame id="38">
+    </frame>
+    <frame id="39">
+    </frame>
+    <frame id="40">
+    </frame>
+    <frame id="41">
+    </frame>
+    <frame id="42">
+    </frame>
+    <frame id="43">
+    </frame>
+    <frame id="44">
+    </frame>
+    <frame id="45">
+    </frame>
+    <frame id="46">
+    </frame>
+    <frame id="47">
+    </frame>
+    <frame id="48">
+    </frame>
+    <frame id="49">
+    </frame>
+</sprite>

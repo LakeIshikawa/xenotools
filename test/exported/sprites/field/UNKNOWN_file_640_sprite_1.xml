@@ -1,0 +1,285 @@
+<sprite texture="sprites/field/UNKNOWN_file_640_sprite_1.png">
+    <start_dir_frame id="0" />
+    <start_dir_frame id="5" />
+    <start_dir_frame id="10" />
+    <start_dir_frame id="15" />
+    <start_dir_frame id="20" />
+    <start_dir_frame id="1" />
+    <start_dir_frame id="6" />
+    <start_dir_frame id="11" />
+    <start_dir_frame id="16" />
+    <start_dir_frame id="21" />
+    <start_dir_frame id="25" />
+    <start_dir_frame id="29" />
+    <start_dir_frame id="33" />
+    <start_dir_frame id="37" />
+    <start_dir_frame id="41" />
+    <frame id="0">
+        <tile  x="-1" y="-19" u="183" v="19" width="2" height="2" />
+        <tile  x="-9" y="-17" u="29" v="1" width="18" height="15" />
+        <tile  x="2" y="-2" u="189" v="17" width="2" height="3" />
+        <tile  x="-4" y="-2" u="129" v="20" width="6" height="3" />
+    </frame>
+    <frame id="1">
+        <tile  x="-2" y="-1" u="192" v="20" width="6" height="2" />
+        <tile  x="-4" y="-1" u="235" v="16" width="2" height="4" />
+        <tile  x="-9" y="-16" u="29" v="1" width="18" height="15" />
+        <tile  x="-1" y="-18" u="183" v="19" width="2" height="2" />
+    </frame>
+    <frame id="2">
+        <tile  x="-1" y="-19" u="183" v="19" width="2" height="2" />
+        <tile  x="2" y="-2" u="189" v="17" width="2" height="3" />
+        <tile  x="-4" y="-2" u="129" v="20" width="6" height="3" />
+        <tile  x="-9" y="-17" u="29" v="1" width="18" height="15" />
+    </frame>
+    <frame id="3">
+        <tile  x="2" y="-1" u="186" v="17" width="2" height="4" />
+        <tile  x="-4" y="-1" u="199" v="20" width="6" height="2" />
+        <tile  x="-9" y="-16" u="29" v="1" width="18" height="15" />
+        <tile  x="-1" y="-18" u="183" v="19" width="2" height="2" />
+    </frame>
+    <frame id="4">
+        <tile  x="2" y="-2" u="189" v="17" width="2" height="3" />
+        <tile  x="-4" y="-2" u="129" v="20" width="6" height="3" />
+        <tile  x="-1" y="-19" u="183" v="19" width="2" height="2" />
+        <tile  x="-9" y="-17" u="29" v="1" width="18" height="15" />
+    </frame>
+    <frame id="5">
+        <tile  x="-3" y="-1" u="247" v="19" width="8" height="3" />
+        <tile  x="-1" y="-14" u="118" v="1" width="9" height="13" />
+        <tile  x="0" y="-19" u="122" v="15" width="6" height="5" />
+        <tile  x="-10" y="-17" u="11" v="1" width="9" height="16" />
+    </frame>
+    <frame id="6">
+        <tile  x="-3" y="0" u="21" v="18" width="7" height="3" />
+        <tile  x="-1" y="-13" u="118" v="1" width="9" height="13" />
+        <tile  x="0" y="-18" u="122" v="15" width="6" height="5" />
+        <tile  x="-10" y="-16" u="11" v="1" width="9" height="16" />
+    </frame>
+    <frame id="7">
+        <tile  x="-3" y="-1" u="247" v="19" width="8" height="3" />
+        <tile  x="-1" y="-14" u="118" v="1" width="9" height="13" />
+        <tile  x="0" y="-19" u="122" v="15" width="6" height="5" />
+        <tile  x="-10" y="-17" u="11" v="1" width="9" height="16" />
+    </frame>
+    <frame id="8">
+        <tile  x="-4" y="-1" u="29" v="17" width="10" height="4" />
+        <tile  x="-1" y="-13" u="118" v="1" width="9" height="13" />
+        <tile  x="0" y="-18" u="122" v="15" width="6" height="5" />
+        <tile  x="-10" y="-16" u="11" v="1" width="9" height="16" />
+    </frame>
+    <frame id="9">
+        <tile  x="-3" y="-1" u="247" v="19" width="8" height="3" />
+        <tile  x="-10" y="-17" u="11" v="1" width="9" height="16" />
+        <tile  x="-1" y="-14" u="118" v="1" width="9" height="13" />
+        <tile  x="0" y="-19" u="122" v="15" width="6" height="5" />
+    </frame>
+    <frame id="10">
+        <tile  x="-4" y="-2" u="69" v="17" width="8" height="4" />
+        <tile  x="1" y="-18" u="1" v="1" width="9" height="16" />
+        <tile  x="-4" y="-16" u="96" v="1" width="5" height="14" />
+        <tile  x="-11" y="-18" u="21" v="1" width="7" height="16" />
+    </frame>
+    <frame id="11">
+        <tile  x="-6" y="-1" u="8" v="18" width="12" height="3" />
+        <tile  x="1" y="-17" u="1" v="1" width="9" height="16" />
+        <tile  x="-4" y="-15" u="96" v="1" width="5" height="14" />
+        <tile  x="-11" y="-17" u="21" v="1" width="7" height="16" />
+    </frame>
+    <frame id="12">
+        <tile  x="-4" y="-2" u="69" v="17" width="8" height="4" />
+        <tile  x="-11" y="-18" u="21" v="1" width="7" height="16" />
+        <tile  x="1" y="-18" u="1" v="1" width="9" height="16" />
+        <tile  x="-4" y="-16" u="96" v="1" width="5" height="14" />
+    </frame>
+    <frame id="13">
+        <tile  x="-5" y="-1" u="217" v="18" width="11" height="3" />
+        <tile  x="1" y="-17" u="1" v="1" width="9" height="16" />
+        <tile  x="-4" y="-15" u="96" v="1" width="5" height="14" />
+        <tile  x="-11" y="-17" u="21" v="1" width="7" height="16" />
+    </frame>
+    <frame id="14">
+        <tile  x="-4" y="-2" u="69" v="17" width="8" height="4" />
+        <tile  x="-11" y="-18" u="21" v="1" width="7" height="16" />
+        <tile  x="1" y="-18" u="1" v="1" width="9" height="16" />
+        <tile  x="-4" y="-16" u="96" v="1" width="5" height="14" />
+    </frame>
+    <frame id="15">
+        <tile  x="-2" y="-1" u="1" v="18" width="6" height="4" />
+        <tile  x="-4" y="-1" u="206" v="20" width="2" height="2" />
+        <tile  x="-10" y="-16" u="48" v="1" width="17" height="15" />
+        <tile  x="-8" y="-18" u="153" v="20" width="8" height="2" />
+    </frame>
+    <frame id="16">
+        <tile  x="3" y="0" u="235" v="11" width="3" height="4" />
+        <tile  x="-4" y="0" u="162" v="20" width="7" height="2" />
+        <tile  x="-10" y="-15" u="48" v="1" width="17" height="15" />
+        <tile  x="-8" y="-17" u="153" v="20" width="8" height="2" />
+    </frame>
+    <frame id="17">
+        <tile  x="-2" y="-1" u="1" v="18" width="6" height="4" />
+        <tile  x="-4" y="-1" u="206" v="20" width="2" height="2" />
+        <tile  x="-10" y="-16" u="48" v="1" width="17" height="15" />
+        <tile  x="-8" y="-18" u="153" v="20" width="8" height="2" />
+    </frame>
+    <frame id="18">
+        <tile  x="0" y="4" u="253" v="17" width="2" height="1" />
+        <tile  x="-4" y="0" u="60" v="17" width="8" height="4" />
+        <tile  x="-10" y="-15" u="48" v="1" width="17" height="15" />
+        <tile  x="-8" y="-17" u="153" v="20" width="8" height="2" />
+    </frame>
+    <frame id="19">
+        <tile  x="-2" y="-1" u="1" v="18" width="6" height="4" />
+        <tile  x="-4" y="-1" u="206" v="20" width="2" height="2" />
+        <tile  x="-10" y="-16" u="48" v="1" width="17" height="15" />
+        <tile  x="-8" y="-18" u="153" v="20" width="8" height="2" />
+    </frame>
+    <frame id="20">
+        <tile  x="-4" y="-1" u="129" v="15" width="8" height="4" />
+        <tile  x="-6" y="-19" u="80" v="16" width="12" height="4" />
+        <tile  x="-6" y="-15" u="80" v="1" width="15" height="14" />
+        <tile  x="-9" y="-15" u="235" v="1" width="3" height="9" />
+    </frame>
+    <frame id="21">
+        <tile  x="-4" y="0" u="51" v="17" width="8" height="4" />
+        <tile  x="-6" y="-18" u="80" v="16" width="12" height="4" />
+        <tile  x="-6" y="-14" u="80" v="1" width="15" height="14" />
+        <tile  x="-9" y="-14" u="235" v="1" width="3" height="9" />
+    </frame>
+    <frame id="22">
+        <tile  x="-4" y="-1" u="129" v="15" width="8" height="4" />
+        <tile  x="-6" y="-15" u="80" v="1" width="15" height="14" />
+        <tile  x="-9" y="-15" u="235" v="1" width="3" height="9" />
+        <tile  x="-6" y="-19" u="80" v="16" width="12" height="4" />
+    </frame>
+    <frame id="23">
+        <tile  x="-4" y="0" u="93" v="16" width="8" height="4" />
+        <tile  x="-6" y="-18" u="80" v="16" width="12" height="4" />
+        <tile  x="-6" y="-14" u="80" v="1" width="15" height="14" />
+        <tile  x="-9" y="-14" u="235" v="1" width="3" height="9" />
+    </frame>
+    <frame id="24">
+        <tile  x="-4" y="-1" u="129" v="15" width="8" height="4" />
+        <tile  x="-6" y="-15" u="80" v="1" width="15" height="14" />
+        <tile  x="-9" y="-15" u="235" v="1" width="3" height="9" />
+        <tile  x="-6" y="-19" u="80" v="16" width="12" height="4" />
+    </frame>
+    <frame id="25">
+        <tile  x="-1" y="-19" u="183" v="19" width="2" height="2" />
+        <tile  x="-9" y="-17" u="29" v="1" width="18" height="15" />
+        <tile  x="2" y="-2" u="189" v="17" width="2" height="3" />
+        <tile  x="-4" y="-2" u="129" v="20" width="6" height="3" />
+    </frame>
+    <frame id="26">
+        <tile  x="2" y="-2" u="189" v="17" width="2" height="3" />
+        <tile  x="-4" y="-2" u="129" v="20" width="6" height="3" />
+        <tile  x="-9" y="-17" u="29" v="1" width="18" height="15" />
+    </frame>
+    <frame id="27">
+        <tile  x="2" y="-3" u="189" v="12" width="2" height="4" />
+        <tile  x="-2" y="-3" u="229" v="18" width="4" height="3" />
+        <tile  x="-4" y="-3" u="186" v="12" width="2" height="4" />
+        <tile  x="-9" y="-18" u="29" v="1" width="18" height="15" />
+    </frame>
+    <frame id="28">
+        <tile  x="2" y="-2" u="189" v="17" width="2" height="3" />
+        <tile  x="-4" y="-2" u="129" v="20" width="6" height="3" />
+        <tile  x="-9" y="-17" u="29" v="1" width="18" height="15" />
+    </frame>
+    <frame id="29">
+        <tile  x="-3" y="-1" u="247" v="19" width="8" height="3" />
+        <tile  x="-1" y="-14" u="118" v="1" width="9" height="13" />
+        <tile  x="0" y="-19" u="122" v="15" width="6" height="5" />
+        <tile  x="-10" y="-17" u="11" v="1" width="9" height="16" />
+    </frame>
+    <frame id="30">
+        <tile  x="-3" y="-1" u="247" v="19" width="8" height="3" />
+        <tile  x="-10" y="-17" u="11" v="1" width="9" height="16" />
+        <tile  x="-1" y="-11" u="128" v="1" width="9" height="13" />
+        <tile  x="-1" y="-15" u="40" v="17" width="10" height="4" />
+    </frame>
+    <frame id="31">
+        <tile  x="-2" y="-1" u="171" v="19" width="11" height="3" />
+        <tile  x="-5" y="-12" u="148" v="1" width="14" height="11" />
+        <tile  x="-10" y="-12" u="211" v="11" width="5" height="8" />
+        <tile  x="-10" y="-18" u="160" v="13" width="10" height="6" />
+    </frame>
+    <frame id="32">
+        <tile  x="-3" y="-1" u="247" v="19" width="8" height="3" />
+        <tile  x="-10" y="-17" u="11" v="1" width="9" height="16" />
+        <tile  x="-1" y="-11" u="128" v="1" width="9" height="13" />
+        <tile  x="-1" y="-15" u="40" v="17" width="10" height="4" />
+    </frame>
+    <frame id="33">
+        <tile  x="-4" y="-2" u="69" v="17" width="8" height="4" />
+        <tile  x="1" y="-18" u="1" v="1" width="9" height="16" />
+        <tile  x="-4" y="-16" u="96" v="1" width="5" height="14" />
+        <tile  x="-11" y="-18" u="21" v="1" width="7" height="16" />
+    </frame>
+    <frame id="34">
+        <tile  x="-11" y="-18" u="21" v="1" width="7" height="16" />
+        <tile  x="-4" y="-4" u="173" v="12" width="12" height="6" />
+        <tile  x="5" y="-15" u="163" v="1" width="9" height="11" />
+        <tile  x="-4" y="-16" u="138" v="1" width="9" height="12" />
+    </frame>
+    <frame id="35">
+        <tile  x="2" y="-11" u="102" v="1" width="15" height="13" />
+        <tile  x="-4" y="-3" u="115" v="15" width="6" height="5" />
+        <tile  x="-10" y="-13" u="173" v="1" width="12" height="10" />
+        <tile  x="-10" y="-19" u="138" v="14" width="9" height="6" />
+    </frame>
+    <frame id="36">
+        <tile  x="-11" y="-18" u="21" v="1" width="7" height="16" />
+        <tile  x="-4" y="-4" u="173" v="12" width="12" height="6" />
+        <tile  x="5" y="-15" u="163" v="1" width="9" height="11" />
+        <tile  x="-4" y="-16" u="138" v="1" width="9" height="12" />
+    </frame>
+    <frame id="37">
+        <tile  x="-2" y="-1" u="1" v="18" width="6" height="4" />
+        <tile  x="-4" y="-1" u="206" v="20" width="2" height="2" />
+        <tile  x="-10" y="-16" u="48" v="1" width="17" height="15" />
+        <tile  x="-8" y="-18" u="153" v="20" width="8" height="2" />
+    </frame>
+    <frame id="38">
+        <tile  x="-5" y="-3" u="148" v="13" width="11" height="6" />
+        <tile  x="-5" y="-12" u="211" v="1" width="13" height="9" />
+        <tile  x="-10" y="-12" u="186" v="1" width="5" height="10" />
+        <tile  x="-10" y="-18" u="217" v="11" width="13" height="6" />
+    </frame>
+    <frame id="39">
+        <tile  x="-6" y="-4" u="239" v="10" width="13" height="8" />
+        <tile  x="3" y="-7" u="148" v="20" width="4" height="3" />
+        <tile  x="3" y="-13" u="253" v="10" width="2" height="6" />
+        <tile  x="-10" y="-19" u="66" v="1" width="13" height="15" />
+    </frame>
+    <frame id="40">
+        <tile  x="-5" y="-3" u="148" v="13" width="11" height="6" />
+        <tile  x="-5" y="-12" u="211" v="1" width="13" height="9" />
+        <tile  x="-10" y="-12" u="186" v="1" width="5" height="10" />
+        <tile  x="-10" y="-18" u="217" v="11" width="13" height="6" />
+    </frame>
+    <frame id="41">
+        <tile  x="-4" y="-1" u="129" v="15" width="8" height="4" />
+        <tile  x="-6" y="-19" u="80" v="16" width="12" height="4" />
+        <tile  x="-6" y="-15" u="80" v="1" width="15" height="14" />
+        <tile  x="-9" y="-15" u="235" v="1" width="3" height="9" />
+    </frame>
+    <frame id="42">
+        <tile  x="-6" y="-19" u="80" v="16" width="12" height="4" />
+        <tile  x="-3" y="-6" u="225" v="1" width="9" height="9" />
+        <tile  x="-6" y="-6" u="231" v="11" width="3" height="6" />
+        <tile  x="-9" y="-15" u="192" v="1" width="18" height="9" />
+    </frame>
+    <frame id="43">
+        <tile  x="-4" y="1" u="238" v="19" width="8" height="3" />
+        <tile  x="-6" y="-4" u="102" v="15" width="12" height="5" />
+        <tile  x="-9" y="-12" u="192" v="11" width="18" height="8" />
+        <tile  x="-8" y="-20" u="239" v="1" width="16" height="8" />
+    </frame>
+    <frame id="44">
+        <tile  x="-6" y="-19" u="80" v="16" width="12" height="4" />
+        <tile  x="-3" y="-6" u="225" v="1" width="9" height="9" />
+        <tile  x="-6" y="-6" u="231" v="11" width="3" height="6" />
+        <tile  x="-9" y="-15" u="192" v="1" width="18" height="9" />
+    </frame>
+</sprite>

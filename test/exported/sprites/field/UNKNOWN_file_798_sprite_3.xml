@@ -1,0 +1,297 @@
+<sprite texture="sprites/field/UNKNOWN_file_798_sprite_3.png">
+    <start_dir_frame id="8" />
+    <start_dir_frame id="17" />
+    <start_dir_frame id="26" />
+    <start_dir_frame id="35" />
+    <start_dir_frame id="44" />
+    <start_dir_frame id="0" />
+    <start_dir_frame id="9" />
+    <start_dir_frame id="18" />
+    <start_dir_frame id="27" />
+    <start_dir_frame id="36" />
+    <start_dir_frame id="45" />
+    <start_dir_frame id="53" />
+    <start_dir_frame id="61" />
+    <start_dir_frame id="69" />
+    <start_dir_frame id="77" />
+    <start_dir_frame id="85" />
+    <start_dir_frame id="92" />
+    <start_dir_frame id="99" />
+    <start_dir_frame id="106" />
+    <start_dir_frame id="113" />
+    <start_dir_frame id="8" />
+    <start_dir_frame id="17" />
+    <start_dir_frame id="26" />
+    <start_dir_frame id="35" />
+    <start_dir_frame id="44" />
+    <start_dir_frame id="8" />
+    <start_dir_frame id="17" />
+    <start_dir_frame id="26" />
+    <start_dir_frame id="35" />
+    <start_dir_frame id="44" />
+    <start_dir_frame id="8" />
+    <start_dir_frame id="17" />
+    <start_dir_frame id="26" />
+    <start_dir_frame id="35" />
+    <start_dir_frame id="44" />
+    <start_dir_frame id="8" />
+    <start_dir_frame id="17" />
+    <start_dir_frame id="26" />
+    <start_dir_frame id="35" />
+    <start_dir_frame id="44" />
+    <start_dir_frame id="8" />
+    <start_dir_frame id="17" />
+    <start_dir_frame id="26" />
+    <start_dir_frame id="35" />
+    <start_dir_frame id="44" />
+    <start_dir_frame id="8" />
+    <start_dir_frame id="17" />
+    <start_dir_frame id="26" />
+    <start_dir_frame id="35" />
+    <start_dir_frame id="44" />
+    <start_dir_frame id="8" />
+    <start_dir_frame id="17" />
+    <start_dir_frame id="26" />
+    <start_dir_frame id="35" />
+    <start_dir_frame id="44" />
+    <frame id="0">
+    </frame>
+    <frame id="1">
+    </frame>
+    <frame id="2">
+    </frame>
+    <frame id="3">
+    </frame>
+    <frame id="4">
+    </frame>
+    <frame id="5">
+    </frame>
+    <frame id="6">
+    </frame>
+    <frame id="7">
+    </frame>
+    <frame id="8">
+    </frame>
+    <frame id="9">
+    </frame>
+    <frame id="10">
+    </frame>
+    <frame id="11">
+    </frame>
+    <frame id="12">
+    </frame>
+    <frame id="13">
+    </frame>
+    <frame id="14">
+    </frame>
+    <frame id="15">
+    </frame>
+    <frame id="16">
+    </frame>
+    <frame id="17">
+    </frame>
+    <frame id="18">
+    </frame>
+    <frame id="19">
+    </frame>
+    <frame id="20">
+    </frame>
+    <frame id="21">
+    </frame>
+    <frame id="22">
+    </frame>
+    <frame id="23">
+    </frame>
+    <frame id="24">
+    </frame>
+    <frame id="25">
+    </frame>
+    <frame id="26">
+    </frame>
+    <frame id="27">
+    </frame>
+    <frame id="28">
+    </frame>
+    <frame id="29">
+    </frame>
+    <frame id="30">
+    </frame>
+    <frame id="31">
+    </frame>
+    <frame id="32">
+    </frame>
+    <frame id="33">
+    </frame>
+    <frame id="34">
+    </frame>
+    <frame id="35">
+    </frame>
+    <frame id="36">
+    </frame>
+    <frame id="37">
+    </frame>
+    <frame id="38">
+    </frame>
+    <frame id="39">
+    </frame>
+    <frame id="40">
+    </frame>
+    <frame id="41">
+    </frame>
+    <frame id="42">
+    </frame>
+    <frame id="43">
+    </frame>
+    <frame id="44">
+    </frame>
+    <frame id="45">
+    </frame>
+    <frame id="46">
+    </frame>
+    <frame id="47">
+    </frame>
+    <frame id="48">
+    </frame>
+    <frame id="49">
+    </frame>
+    <frame id="50">
+    </frame>
+    <frame id="51">
+    </frame>
+    <frame id="52">
+    </frame>
+    <frame id="53">
+    </frame>
+    <frame id="54">
+    </frame>
+    <frame id="55">
+    </frame>
+    <frame id="56">
+    </frame>
+    <frame id="57">
+    </frame>
+    <frame id="58">
+    </frame>
+    <frame id="59">
+    </frame>
+    <frame id="60">
+    </frame>
+    <frame id="61">
+    </frame>
+    <frame id="62">
+    </frame>
+    <frame id="63">
+    </frame>
+    <frame id="64">
+    </frame>
+    <frame id="65">
+    </frame>
+    <frame id="66">
+    </frame>
+    <frame id="67">
+    </frame>
+    <frame id="68">
+    </frame>
+    <frame id="69">
+    </frame>
+    <frame id="70">
+    </frame>
+    <frame id="71">
+    </frame>
+    <frame id="72">
+    </frame>
+    <frame id="73">
+    </frame>
+    <frame id="74">
+    </frame>
+    <frame id="75">
+    </frame>
+    <frame id="76">
+    </frame>
+    <frame id="77">
+    </frame>
+    <frame id="78">
+    </frame>
+    <frame id="79">
+    </frame>
+    <frame id="80">
+    </frame>
+    <frame id="81">
+    </frame>
+    <frame id="82">
+    </frame>
+    <frame id="83">
+    </frame>
+    <frame id="84">
+    </frame>
+    <frame id="85">
+    </frame>
+    <frame id="86">
+    </frame>
+    <frame id="87">
+    </frame>
+    <frame id="88">
+    </frame>
+    <frame id="89">
+    </frame>
+    <frame id="90">
+    </frame>
+    <frame id="91">
+    </frame>
+    <frame id="92">
+    </frame>
+    <frame id="93">
+    </frame>
+    <frame id="94">
+    </frame>
+    <frame id="95">
+    </frame>
+    <frame id="96">
+    </frame>
+    <frame id="97">
+    </frame>
+    <frame id="98">
+    </frame>
+    <frame id="99">
+    </frame>
+    <frame id="100">
+    </frame>
+    <frame id="101">
+    </frame>
+    <frame id="102">
+    </frame>
+    <frame id="103">
+    </frame>
+    <frame id="104">
+    </frame>
+    <frame id="105">
+    </frame>
+    <frame id="106">
+    </frame>
+    <frame id="107">
+    </frame>
+    <frame id="108">
+    </frame>
+    <frame id="109">
+    </frame>
+    <frame id="110">
+    </frame>
+    <frame id="111">
+    </frame>
+    <frame id="112">
+    </frame>
+    <frame id="113">
+    </frame>
+    <frame id="114">
+    </frame>
+    <frame id="115">
+    </frame>
+    <frame id="116">
+    </frame>
+    <frame id="117">
+    </frame>
+    <frame id="118">
+    </frame>
+    <frame id="119">
+    </frame>
+</sprite>

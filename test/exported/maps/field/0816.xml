@@ -1,0 +1,58 @@
+<map>
+    <walkmesh file_name="maps/field/0816_wm.xml" />
+
+    <script file_name="maps/field/0816.lua" />
+
+    <spawn_point name="0" position="1.750000 2.203125" walkmesh_id="0" camera_rotation="0" entity_rotation="4" />
+    <spawn_point name="1" position="1.359375 -2.078125" walkmesh_id="0" camera_rotation="0" entity_rotation="0" />
+
+    <square_trigger name="Gateway0" point1="1.359375 0.000000 2.765625" point2="2.234375 0.000000 2.765625" point3="2.234375 0.000000 3.593750" point4="1.359375 0.000000 3.593750" />
+
+    <entity name="0" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="1" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="2" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="3" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="4" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="5" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="6" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="7" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="8" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="9" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="10" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="11" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="12" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="13" position="0.687500 -0.906250 -2.750000" direction="0.000000" script="true" file_name="33" flags="0290" rotation="0 0 0" />
+    <entity name="14" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="0" flags="0000" rotation="0 0 0" />
+    <entity name="15" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="1" flags="0000" rotation="0 0 0" />
+    <entity name="16" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="2" flags="0000" rotation="0 0 0" />
+    <entity name="17" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="3" flags="0000" rotation="0 0 0" />
+    <entity name="18" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="4" flags="0000" rotation="0 0 0" />
+    <entity name="19" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="5" flags="0000" rotation="0 0 0" />
+    <entity name="20" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="6" flags="0000" rotation="0 0 0" />
+    <entity name="21" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="7" flags="0000" rotation="0 0 0" />
+    <entity name="22" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="8" flags="0000" rotation="0 0 0" />
+    <entity name="23" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="9" flags="0010" rotation="0 0 0" />
+    <entity name="24" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="10" flags="0010" rotation="0 0 0" />
+    <entity name="25" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="11" flags="0000" rotation="0 0 0" />
+    <entity name="26" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="12" flags="0010" rotation="0 0 0" />
+    <entity name="27" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="13" flags="0010" rotation="0 0 0" />
+    <entity name="28" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="14" flags="0010" rotation="0 0 0" />
+    <entity name="29" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="15" flags="0010" rotation="0 0 0" />
+    <entity name="30" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="16" flags="0000" rotation="0 0 0" />
+    <entity name="31" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="17" flags="0010" rotation="0 0 0" />
+    <entity name="32" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="18" flags="0010" rotation="0 0 0" />
+    <entity name="33" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="19" flags="0010" rotation="0 0 0" />
+    <entity name="34" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="20" flags="0010" rotation="0 0 0" />
+    <entity name="35" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="21" flags="0000" rotation="0 0 0" />
+    <entity name="36" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="22" flags="0010" rotation="0 0 0" />
+    <entity name="37" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="23" flags="0010" rotation="0 0 0" />
+    <entity name="38" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="24" flags="0010" rotation="0 0 0" />
+    <entity name="39" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="25" flags="0010" rotation="0 0 0" />
+    <entity name="40" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="26" flags="0010" rotation="0 0 0" />
+    <entity name="41" position="0.031250 0.000000 0.000000" direction="0.000000" file_name="27" flags="0010" rotation="0 0 0" />
+    <entity name="42" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="28" flags="0010" rotation="0 0 0" />
+    <entity name="43" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="29" flags="0000" rotation="0 0 0" />
+    <entity name="44" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="30" flags="0010" rotation="0 0 0" />
+    <entity name="45" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="31" flags="8010" rotation="0 0 0" />
+    <entity name="46" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="32" flags="0000" rotation="0 0 0" />
+</map>

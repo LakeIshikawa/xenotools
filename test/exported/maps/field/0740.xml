@@ -1,0 +1,23 @@
+<map>
+    <walkmesh file_name="maps/field/0740_wm.xml" />
+
+    <script file_name="maps/field/0740.lua" />
+
+    <spawn_point name="0" position="43.906250 26.781250" walkmesh_id="0" camera_rotation="-1" entity_rotation="-1" />
+    <spawn_point name="1" position="-42.125000 -52.828125" walkmesh_id="0" camera_rotation="-1" entity_rotation="-1" />
+
+    <square_trigger name="Gateway0" point1="38.937500 0.000000 39.031250" point2="53.546875 0.000000 19.218750" point3="66.812500 0.000000 28.984375" point4="52.203125 0.000000 48.796875" />
+    <square_trigger name="Gateway1" point1="-65.031250 0.000000 -59.187500" point2="-47.843750 0.000000 -75.953125" point3="-35.921875 0.000000 -63.750000" point4="-53.109375 0.000000 -46.968750" />
+
+    <entity name="0" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="1" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="2" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="3" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="4" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="5" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="6" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="7" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="8" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="0" flags="0000" rotation="0 0 0" />
+    <entity name="9" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="1" flags="0000" rotation="0 0 0" />
+    <entity name="10" position="0.000000 0.000000 0.000000" direction="0.000000" file_name="2" flags="0010" rotation="0 0 0" />
+</map>

@@ -3,6 +3,7 @@
 #include "FieldModel.h"
 #include "tiny_gltf.h"
 
+#include "FileSystem.h"
 #include "ModelFile.h"
 #include "File.h"
 #include "Logger.h"
@@ -22,7 +23,7 @@ FieldModel::~FieldModel()
 
 
 void
-FieldModel::Export(File* model_file, Vram* vram, const int file_id, std::unordered_map<int, EntityData> entities)
+FieldModel::Export(File* model_file, Vram* vram, const int file_id, std::vector<EntityData> entities)
 {
     MeshData data;
     data.name = std::format("{:04d}", file_id);
@@ -79,7 +80,6 @@ FieldModel::Export(File* model_file, Vram* vram, const int file_id, std::unorder
         // Add object to scene
         tinygltf::Mesh mesh;
         tinygltf::Primitive primitive;
-        tinygltf::Node node;
         tinygltf::Buffer buffer1;
         tinygltf::Buffer buffer2;
         tinygltf::Buffer buffer3;
@@ -94,7 +94,7 @@ FieldModel::Export(File* model_file, Vram* vram, const int file_id, std::unorder
         for (int p : modelData.polygons) {
             for (int j = 0; j < p; j++) {
                 u16 fid = (u16)modelData.indices[vidx++];
-                for (u8* p = (u8*)&fid; p <= ((u8*)(&fid))+1; p++) {
+                for (u8* p = (u8*)&fid; p <= ((u8*)(&fid)) + 1; p++) {
                     buffer1.data.push_back(*p);
                 }
             }
@@ -165,6 +165,7 @@ FieldModel::Export(File* model_file, Vram* vram, const int file_id, std::unorder
         primitive.material = 0;
         primitive.mode = TINYGLTF_MODE_TRIANGLES;
         mesh.primitives.push_back(primitive);
+        m.meshes.push_back(mesh);
 
         // Other tie ups
         m.buffers.push_back(buffer1);
@@ -176,32 +177,31 @@ FieldModel::Export(File* model_file, Vram* vram, const int file_id, std::unorder
         m.accessors.push_back(accessor1);
         m.accessors.push_back(accessor2);
         m.accessors.push_back(accessor3);
+    }
 
-        scene.nodes.push_back(i); // Default scene
-        m.scenes.push_back(scene);
-        m.meshes.push_back(mesh);
-        node.mesh = i;
-        if (entities.count(i)) {
-            EntityData& e = entities[i];
-            node.translation = {e.pos[0], e.pos[1], e.pos[2]};
-            //node.rotation = { e.pos[0], e.pos[1], e.pos[2] };
+    for (auto& e : entities) {
+        tinygltf::Node node;
+        node.mesh = e.model_id;
+        node.translation = { e.pos[0], e.pos[1], e.pos[2] };
+        //node.rotation = { e.pos[0], e.pos[1], e.pos[2] };
 
-            double cr = cos(e.rot[0]* 0.5);
-            double sr = sin(e.rot[0] * 0.5);
-            double cp = cos(e.rot[1] * 0.5);
-            double sp = sin(e.rot[1] * 0.5);
-            double cy = cos(e.rot[2] * 0.5);
-            double sy = sin(e.rot[2] * 0.5);
+        double cr = cos(e.rot[0] * 0.5);
+        double sr = sin(e.rot[0] * 0.5);
+        double cp = cos(e.rot[1] * 0.5);
+        double sp = sin(e.rot[1] * 0.5);
+        double cy = cos(e.rot[2] * 0.5);
+        double sy = sin(e.rot[2] * 0.5);
 
-            node.rotation = {
-                sr * cp * cy - cr * sp * sy,
-                cr * sp * cy + sr * cp * sy,
-                cr * cp * sy - sr * sp * cy,
-                cr * cp * cy + sr * sp * sy
-            };
-        }
+        node.rotation = {
+            sr * cp * cy - cr * sp * sy,
+            cr * sp * cy + sr * cp * sy,
+            cr * cp * sy - sr * sp * cy,
+            cr * cp * cy + sr * sp * sy
+        };
+        scene.nodes.push_back(static_cast<int>(m.nodes.size()));
         m.nodes.push_back(node);
     }
+    m.scenes.push_back(scene);
     
     asset.version = "2.0";
     asset.generator = "tinygltf";
@@ -239,6 +239,7 @@ FieldModel::Export(File* model_file, Vram* vram, const int file_id, std::unorder
 
     // Save it to a file
     tinygltf::TinyGLTF gltf;
+    FILESYSTEM->mkdirs("exported/models/field_maps/" + data.name);
     gltf.WriteGltfSceneToFile(&m, "exported/models/field_maps/" + data.name + "/" + data.name + ".gltf",
         false, // embedImages
         true, // embedBuffers

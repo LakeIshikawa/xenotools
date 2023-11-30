@@ -1,0 +1,19 @@
+<map>
+    <walkmesh file_name="maps/field/0638_wm.xml" />
+
+    <script file_name="maps/field/0638.lua" />
+
+    <spawn_point name="0" position="-20.593750 0.000000" walkmesh_id="0" camera_rotation="-1" entity_rotation="-1" />
+
+    <entity name="0" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="1" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="2" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="3" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="4" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="5" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="6" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="7" position="-17.265625 25.328125 -2.125000" direction="0.263672" script="true" file_name="0" flags="0290" rotation="3826 3 3485" />
+    <entity name="8" position="-22.593750 28.484375 3.046875" direction="359.912109" script="true" file_name="0" flags="0290" rotation="253 4095 3850" />
+    <entity name="9" position="-21.234375 28.500000 -4.171875" direction="0.791016" script="true" file_name="0" flags="0290" rotation="3722 9 3878" />
+    <entity name="10" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+</map>

@@ -201,12 +201,12 @@ FieldModule::LoadMap(const int file_id)
 
 
     // part 7
-    temp = field_pack->Extract( 7 );
-    DialogFile* dialog_file = new DialogFile( temp );
-    temp->WriteFile( "exported/debug/" + fname + "_7_dialogs" );
-    delete temp;
-    dialog_file->GetDialogs( file_id );
-    delete dialog_file;
+    //temp = field_pack->Extract( 7 );
+    //DialogFile* dialog_file = new DialogFile( temp );
+    //temp->WriteFile( "exported/debug/" + fname + "_7_dialogs" );
+    //delete temp;
+    //dialog_file->GetDialogs( file_id );
+    //delete dialog_file;
 
 
 
@@ -244,7 +244,7 @@ FieldModule::LoadMap(const int file_id)
     }
     delete temp;
 
-    std::unordered_map<int, EntityData> entities;
+    std::vector<EntityData> entities;
     export_script->Log( "\n" );
     u16 number_of_model_ent = field_pack->GetU16LE( 0x18c );
     for( int i = 0; i < number_of_model_ent; ++i )
@@ -281,7 +281,8 @@ FieldModule::LoadMap(const int file_id)
             data.rot[0] = ((float)(x_rot)) / 4096.0 * 2 * PI;
             data.rot[1] = ((float)(y_rot)) / 4096.0 * 2 * PI;
             data.rot[2] = ((float)(z_rot)) / 4096.0 * 2 * PI;
-            entities[model_id] = data;
+            data.model_id = model_id;
+            entities.push_back(data);
         }
         export_script->Log( "flags=\"" + HexToString( flags, 4, '0' ) + "\" " );
         export_script->Log( "rotation=\"" + std::to_string( x_rot ) + " " + std::to_string( y_rot ) + " " + std::to_string( z_rot ) + "\" " );

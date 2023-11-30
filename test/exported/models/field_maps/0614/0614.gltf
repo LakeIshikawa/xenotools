@@ -1,0 +1,217 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 96,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 96,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 96,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 6,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 6,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 6,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "tinygltf",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 192,
+      "target": 34963
+    },
+    {
+      "buffer": 1,
+      "byteLength": 1152,
+      "target": 34962
+    },
+    {
+      "buffer": 2,
+      "byteLength": 768,
+      "target": 34962
+    },
+    {
+      "buffer": 3,
+      "byteLength": 12,
+      "target": 34963
+    },
+    {
+      "buffer": 4,
+      "byteLength": 72,
+      "target": 34962
+    },
+    {
+      "buffer": 5,
+      "byteLength": 48,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 192,
+      "uri": "data:application/octet-stream;base64,AAABAAIAAwAEAAUABgAHAAgACQAKAAsADAANAA4ADwAQABEAEgATABQAFQAWABcAGAAZABoAGwAcAB0AHgAfACAAIQAiACMAJAAlACYAJwAoACkAKgArACwALQAuAC8AMAAxADIAMwA0ADUANgA3ADgAOQA6ADsAPAA9AD4APwBAAEEAQgBDAEQARQBGAEcASABJAEoASwBMAE0ATgBPAFAAUQBSAFMAVABVAFYAVwBYAFkAWgBbAFwAXQBeAF8A"
+    },
+    {
+      "byteLength": 1152,
+      "uri": "data:application/octet-stream;base64,AAC0wAAAh8AAAAAAAAC0wAAAB8EAAAAAAAA0wQAAh8AAAAAAAAA0wQAAh8AAAAAAAAC0wAAAB8EAAAAAAAA0wQAAB8EAAAAAAAAAAAAAh8AAAAAAAAAAAAAAB8EAAAAAAAC0wAAAh8AAAAAAAAC0wAAAh8AAAAAAAAAAAAAAB8EAAAAAAAC0wAAAB8EAAAAAAAC0QAAAh8AAAAAAAAC0QAAAB8EAAAAAAAAAAAAAh8AAAAAAAAAAAAAAh8AAAAAAAAC0QAAAB8EAAAAAAAAAAAAAB8EAAAAAAAA0QQAAh8AAAAAAAAA0QQAAB8EAAAAAAAC0QAAAh8AAAAAAAAC0QAAAh8AAAAAAAAA0QQAAB8EAAAAAAAC0QAAAB8EAAAAAAAA0wQAAAAAAAAAAAAC0wAAAAAAAAAAAAAA0wQAAh8AAAAAAAAA0wQAAh8AAAAAAAAC0wAAAAAAAAAAAAAC0wAAAh8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAh8AAAAAAAAC0wAAAAAAAAAAAAAC0wAAAAAAAAAAAAAAAAAAAh8AAAAAAAAC0wAAAh8AAAAAAAAC0QAAAAAAAAAAAAAC0QAAAh8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC0QAAAh8AAAAAAAAAAAAAAh8AAAAAAAAA0QQAAAAAAAAAAAAA0QQAAh8AAAAAAAAC0QAAAAAAAAAAAAAC0QAAAAAAAAAAAAAA0QQAAh8AAAAAAAAC0QAAAh8AAAAAAAAC0wAAAh0AAAAAAAAC0wAAAAAAAAAAAAAA0wQAAh0AAAAAAAAA0wQAAh0AAAAAAAAC0wAAAAAAAAAAAAAA0wQAAAAAAAAAAAAC0wAAAh0AAAAAAAAAAAAAAh0AAAAAAAAC0wAAAAAAAAAAAAAC0wAAAAAAAAAAAAAAAAAAAh0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAh0AAAAAAAAC0QAAAh0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC0QAAAh0AAAAAAAAC0QAAAAAAAAAAAAAC0QAAAh0AAAAAAAAA0QQAAh0AAAAAAAAC0QAAAAAAAAAAAAAC0QAAAAAAAAAAAAAA0QQAAh0AAAAAAAAA0QQAAAAAAAAAAAAA0wQAAB0EAAAAAAAC0wAAAB0EAAAAAAAA0wQAAh0AAAAAAAAA0wQAAh0AAAAAAAAC0wAAAB0EAAAAAAAC0wAAAh0AAAAAAAAC0wAAAB0EAAAAAAAAAAAAAB0EAAAAAAAC0wAAAh0AAAAAAAAC0wAAAh0AAAAAAAAAAAAAAB0EAAAAAAAAAAAAAh0AAAAAAAAAAAAAAB0EAAAAAAAC0QAAAB0EAAAAAAAAAAAAAh0AAAAAAAAAAAAAAh0AAAAAAAAC0QAAAB0EAAAAAAAC0QAAAh0AAAAAAAAC0QAAAB0EAAAAAAAA0QQAAB0EAAAAAAAC0QAAAh0AAAAAAAAC0QAAAh0AAAAAAAAA0QQAAB0EAAAAAAAA0QQAAh0AAAAAA"
+    },
+    {
+      "byteLength": 768,
+      "uri": "data:application/octet-stream;base64,AAAfPQAAbj4AAB89AAAAAAAAAAAAAG4+AAAAAAAAbj4AAB89AAAAAAAAAAAAAAAAAIDfPQAAbj4AgN89AAAAAAAAkD0AAG4+AACQPQAAbj4AgN89AAAAAAAAkD0AAAAAAMA3PgAAbj4AwDc+AAAAAAAAED4AAG4+AAAQPgAAbj4AwDc+AAAAAAAAED4AAAAAAMB/PgAAbj4AwH8+AAAAAAAAWD4AAG4+AABYPgAAbj4AwH8+AAAAAAAAWD4AAAAAAACAPgAA7z4A4JM+AADvPgAAgD4AAHA+AACAPgAAcD4A4JM+AADvPgDgkz4AAHA+AOC3PgAA7z4A4Lc+AABwPgAApD4AAO8+AACkPgAA7z4A4Lc+AABwPgAApD4AAHA+AODbPgAA7z4A4Ns+AABwPgAAyD4AAO8+AADIPgAA7z4A4Ns+AABwPgAAyD4AAHA+AOD/PgAA7z4A4P8+AABwPgAA7D4AAO8+AADsPgAA7z4A4P8+AABwPgAA7D4AAHA+APAJPwAAbj4A8Ak/AAAAAAAAAD8AAG4+AAAAPwAAbj4A8Ak/AAAAAAAAAD8AAAAAAAASPwAAbj4A8Bs/AABuPgAAEj8AAAAAAAASPwAAAAAA8Bs/AABuPgDwGz8AAAAAAAAkPwAAbj4A8C0/AABuPgAAJD8AAAAAAAAkPwAAAAAA8C0/AABuPgDwLT8AAAAAAAA2PwAAbj4A8D8/AABuPgAANj8AAAAAAAA2PwAAAAAA8D8/AABuPgDwPz8AAAAAAABAPwAA7z4A8Ek/AADvPgAAQD8AAHA+AABAPwAAcD4A8Ek/AADvPgDwST8AAHA+AABSPwAA7z4A8Fs/AADvPgAAUj8AAHA+AABSPwAAcD4A8Fs/AADvPgDwWz8AAHA+AABkPwAA7z4A8G0/AADvPgAAZD8AAHA+AABkPwAAcD4A8G0/AADvPgDwbT8AAHA+AAB2PwAA7z4A8H8/AADvPgAAdj8AAHA+AAB2PwAAcD4A8H8/AADvPgDwfz8AAHA+"
+    },
+    {
+      "byteLength": 12,
+      "uri": "data:application/octet-stream;base64,AAABAAIAAwAEAAUA"
+    },
+    {
+      "byteLength": 72,
+      "uri": "data:application/octet-stream;base64,AAAAvwAAAAAAAAAAAAAAPwAAwL8AAAAAAAAAvwAAwL8AAAAAAAAAvwAAAAAAAAAAAAAAPwAAAAAAAAAAAAAAPwAAwL8AAAAA"
+    },
+    {
+      "byteLength": 48,
+      "uri": "data:application/octet-stream;base64,AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    }
+  ],
+  "images": [
+    {
+      "name": "0614",
+      "uri": "0614.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "MASK",
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "specularFactor": 0.0
+        },
+        "KHR_materials_unlit": {}
+      },
+      "name": "0614",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "TEXCOORD_0": 5
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "mesh": 1,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "translation": [
+        0.03125,
+        0.0,
+        -2.4375
+      ]
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9728,
+      "minFilter": 9728,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    },
+    {
+      "nodes": [
+        0,
+        1
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

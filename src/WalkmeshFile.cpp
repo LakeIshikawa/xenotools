@@ -30,7 +30,8 @@ WalkmeshFile::GetWalkmesh(const int file_id)
     for (unsigned int i = 0; i < walkmeshes; ++i)
     {
         std::vector<float> vertices;
-        std::map<int, ModelData> meshes;
+        std::vector<ModelData> meshes;
+        meshes.resize(1024);
         int vidx = 1;
 
         //Logger* export_script = new Logger("exported/maps/field/" + std::format("{:04d}", file_id) + "_wm_" + std::to_string(i) + ".xml");
@@ -45,8 +46,8 @@ WalkmeshFile::GetWalkmesh(const int file_id)
         {
             auto mat = GetU8(block_start + j + 0x0c);
             ModelData* mesh = nullptr;
-            if (meshes.count(mat)) mesh = &meshes.at(mat); 
-            else mesh = &(meshes.insert_or_assign(mat, ModelData()).first)->second;
+            mesh = &meshes.at(mat); 
+            mesh->material = mat;
 
             u16 a_offset = block_vertex + GetU16LE(block_start + j + 0x00) * 0x08;
             u16 b_offset = block_vertex + GetU16LE(block_start + j + 0x02) * 0x08;
@@ -91,15 +92,16 @@ WalkmeshFile::GetWalkmesh(const int file_id)
         }
         str << std::endl;
 
-        int midx = 0;
         for (auto it : meshes) {
-            str << "usemtl " << midx++ << std::endl;
+            if (it.indices.empty()) continue;
+
+            str << "usemtl " << it.material << std::endl;
             int vvidx = 0;
-            for (int p : it.second.polygons) {
+            for (int p : it.polygons) {
                 str << "f ";
 
                 for (int j = 0; j < p; j++) {
-                    auto fid = std::to_string(it.second.indices[vvidx++]);
+                    auto fid = std::to_string(it.indices[vvidx++]);
                     str << fid << " ";
                 }
                 str << std::endl;
@@ -116,6 +118,6 @@ WalkmeshFile::GetWalkmesh(const int file_id)
     // dump material
     int material_pointer = GetU32LE(0x04 + 0x10);
     File* file = new File(this, material_pointer, m_BufferSize - material_pointer);
-    file->WriteFile("exported/debug/" + std::format("{:04d}", file_id) + "_1_walkmesh_material");
+    file->WriteFile("exported/maps/field/" + std::format("{:04d}", file_id) + ".wmt");
     delete file;
 }

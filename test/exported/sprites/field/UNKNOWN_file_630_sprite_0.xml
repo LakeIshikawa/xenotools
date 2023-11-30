@@ -1,0 +1,72 @@
+<sprite texture="sprites/field/UNKNOWN_file_630_sprite_0.png">
+    <start_dir_frame id="0" />
+    <start_dir_frame id="4" />
+    <start_dir_frame id="8" />
+    <start_dir_frame id="12" />
+    <start_dir_frame id="16" />
+    <start_dir_frame id="0" />
+    <start_dir_frame id="4" />
+    <start_dir_frame id="8" />
+    <start_dir_frame id="12" />
+    <start_dir_frame id="16" />
+    <frame id="0">
+        <tile  x="-14" y="-27" u="26" v="39" width="27" height="30" />
+    </frame>
+    <frame id="1">
+        <tile  x="-12" y="-27" u="106" v="39" width="23" height="30" />
+    </frame>
+    <frame id="2">
+        <tile  x="-13" y="-27" u="54" v="39" width="25" height="30" />
+    </frame>
+    <frame id="3">
+        <tile  x="-13" y="-27" u="80" v="39" width="25" height="30" />
+    </frame>
+    <frame id="4">
+        <tile  x="-9" y="-28" u="225" v="36" width="20" height="31" />
+    </frame>
+    <frame id="5">
+        <tile  x="-8" y="-28" u="172" v="39" width="19" height="30" />
+    </frame>
+    <frame id="6">
+        <tile  x="-9" y="-28" u="130" v="39" width="20" height="30" />
+    </frame>
+    <frame id="7">
+        <tile  x="-9" y="-28" u="151" v="39" width="20" height="30" />
+    </frame>
+    <frame id="8">
+        <tile  x="-6" y="-29" u="192" v="1" width="16" height="35" />
+    </frame>
+    <frame id="9">
+        <tile  x="-4" y="-29" u="209" v="36" width="15" height="34" />
+    </frame>
+    <frame id="10">
+        <tile  x="-5" y="-28" u="209" v="1" width="16" height="34" />
+    </frame>
+    <frame id="11">
+        <tile  x="-5" y="-28" u="226" v="1" width="16" height="34" />
+    </frame>
+    <frame id="12">
+        <tile  x="-12" y="-30" u="1" v="1" width="24" height="38" />
+    </frame>
+    <frame id="13">
+        <tile  x="-9" y="-29" u="172" v="1" width="19" height="37" />
+    </frame>
+    <frame id="14">
+        <tile  x="-10" y="-29" u="128" v="1" width="21" height="37" />
+    </frame>
+    <frame id="15">
+        <tile  x="-10" y="-29" u="150" v="1" width="21" height="37" />
+    </frame>
+    <frame id="16">
+        <tile  x="-11" y="-29" u="26" v="1" width="27" height="37" />
+    </frame>
+    <frame id="17">
+        <tile  x="-9" y="-29" u="104" v="1" width="23" height="37" />
+    </frame>
+    <frame id="18">
+        <tile  x="-9" y="-29" u="54" v="1" width="24" height="37" />
+    </frame>
+    <frame id="19">
+        <tile  x="-9" y="-29" u="79" v="1" width="24" height="37" />
+    </frame>
+</sprite>

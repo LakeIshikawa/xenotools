@@ -5,6 +5,7 @@
 
 // export entities
 struct EntityData {
+    int model_id;
     float pos[3];
     float rot[3];
 };
@@ -15,5 +16,5 @@ public:
     FieldModel();
     virtual ~FieldModel();
 
-    void Export(File* model_file, Vram* vram, const int file_id, std::unordered_map<int, EntityData> entities);
+    void Export(File* model_file, Vram* vram, const int file_id, std::vector<EntityData> entities);
 };

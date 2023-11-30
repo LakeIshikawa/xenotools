@@ -1,0 +1,38 @@
+<map>
+    <walkmesh file_name="maps/field/0620_wm.xml" />
+
+    <script file_name="maps/field/0620.lua" />
+
+    <spawn_point name="0" position="-1.828125 2.421875" walkmesh_id="0" camera_rotation="-1" entity_rotation="3" />
+    <spawn_point name="1" position="1.531250 -2.703125" walkmesh_id="0" camera_rotation="-1" entity_rotation="5" />
+
+    <square_trigger name="Gateway0" point1="1.875000 0.000000 -1.875000" point2="2.484375 0.000000 -2.484375" point3="3.062500 0.000000 -1.906250" point4="2.453125 0.000000 -1.296875" />
+
+    <entity name="0" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="1" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="2" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="3" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="4" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="5" position="-2.609375 -0.906250 4.031250" direction="135.000000" script="true" file_name="15" flags="0290" rotation="0 1536 0" />
+    <entity name="6" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="7" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="8" position="0.000000 0.000000 0.000000" direction="0.000000" script="true" flags="01e0" rotation="0 0 0" />
+    <entity name="9" position="0.000000 0.000000 0.000000" direction="135.000000" file_name="0" flags="8010" rotation="0 1536 0" />
+    <entity name="10" position="0.000000 0.000000 0.000000" direction="135.000000" file_name="1" flags="0000" rotation="0 1536 0" />
+    <entity name="11" position="0.000000 0.000000 0.000000" direction="135.000000" file_name="2" flags="0010" rotation="0 1536 0" />
+    <entity name="12" position="0.000000 0.000000 0.000000" direction="135.000000" file_name="3" flags="0010" rotation="0 1536 0" />
+    <entity name="13" position="0.000000 0.000000 0.000000" direction="135.000000" file_name="4" flags="0010" rotation="0 1536 0" />
+    <entity name="14" position="0.000000 0.000000 0.000000" direction="135.000000" file_name="5" flags="0010" rotation="0 1536 0" />
+    <entity name="15" position="0.000000 0.000000 0.000000" direction="135.000000" file_name="6" flags="0010" rotation="0 1536 0" />
+    <entity name="16" position="1.015625 0.000000 3.328125" direction="135.000000" file_name="7" flags="0010" rotation="0 1536 0" />
+    <entity name="17" position="0.390625 0.000000 -0.484375" direction="135.000000" file_name="7" flags="0010" rotation="0 1536 0" />
+    <entity name="18" position="-0.093750 0.000000 -0.375000" direction="135.000000" file_name="7" flags="0010" rotation="0 1536 0" />
+    <entity name="19" position="0.000000 0.000000 0.000000" direction="135.000000" file_name="8" flags="0010" rotation="0 1536 0" />
+    <entity name="20" position="0.000000 0.000000 0.000000" direction="135.000000" file_name="9" flags="0010" rotation="0 1536 0" />
+    <entity name="21" position="0.062500 0.000000 0.015625" direction="135.000000" file_name="10" flags="0010" rotation="0 1536 0" />
+    <entity name="22" position="0.062500 0.000000 0.015625" direction="135.000000" file_name="11" flags="0000" rotation="0 1536 0" />
+    <entity name="23" position="0.000000 0.000000 0.000000" direction="135.000000" file_name="12" flags="0010" rotation="0 1536 0" />
+    <entity name="24" position="0.000000 0.000000 0.000000" direction="135.000000" file_name="13" flags="0000" rotation="0 1536 0" />
+    <entity name="25" position="0.000000 0.000000 0.000000" direction="135.000000" file_name="14" flags="0000" rotation="0 1536 0" />
+    <entity name="26" position="0.000000 0.000000 0.000000" direction="135.000000" file_name="16" flags="0010" rotation="0 1536 0" />
+</map>

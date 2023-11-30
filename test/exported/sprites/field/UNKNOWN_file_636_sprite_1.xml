@@ -1,0 +1,8 @@
+<sprite texture="sprites/field/UNKNOWN_file_636_sprite_1.png">
+    <start_dir_frame id="0" />
+    <start_dir_frame id="0" />
+    <start_dir_frame id="0" />
+    <frame id="0">
+        <tile  x="-1" y="-1" u="1" v="1" width="4" height="4" />
+    </frame>
+</sprite>

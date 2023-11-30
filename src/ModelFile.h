@@ -11,6 +11,7 @@ struct ModelData {
     std::vector<float> uvs;
     std::vector<float> normals;
     std::vector<u32> indices;
+    int material;
 };
 
 class ModelFile : public File
